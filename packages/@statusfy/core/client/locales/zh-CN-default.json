@@ -1,0 +1,109 @@
+{
+  "title": "系统状态",
+  "description": "了解可能影响您的服务中断信息。",
+  "labels": {
+    "contact": "联想我们",
+    "support": "支持",
+    "home": "首页",
+    "powered-by": "Powered by",
+    "legal": "法律信息",
+    "privacy": "隐私"
+  },
+  "statuses": {
+    "under-maintenance": "正在维护",
+    "degraded-performance": "性能降级",
+    "partial-outage": "部分中断",
+    "major-outage": "重大中断",
+    "operational": "正常"
+  },
+  "dates": {
+    "formats": {
+      "short": "yyyy-MM-dd",
+      "long": "MM月d日 HH:mm UTC",
+      "month": "yyyy-MM"
+    }
+  },
+  "incidents": {
+    "incidents": "事件",
+    "incident": "事件",
+    "scheduled": "维护计划",
+    "incidents-history": "事件历史",
+    "incidents-history-description": "我们的服务中断信息。",
+    "incidents-history-days-since-latest": "距上次事件 1 天 | 距上次事件 {days} 天",
+    "latest-incidents": "近期事件",
+    "current-status": "当前状态",
+    "current-status-description": "了解可能影响您的服务中断信息。",
+    "no-incidents": "暂无事件报告。",
+    "resolved": "已解决",
+    "unresolved": "尚未解决",
+    "paginator": {
+      "previous": "上一页",
+      "next": "下一页",
+      "page": "页"
+    },
+    "collapse": {
+      "show": "显示所有 {count} 个事件",
+      "hide": "显示较少的事件"
+    }
+  },
+  "error": {
+    "go-back-link": "返回首页",
+    "404": {
+      "title": "找不到网页",
+      "description": "找不到您要查找的网页"
+    },
+    "other": {
+      "title": "有错误发生",
+      "description": "很抱歉，我们无法完成您的请求"
+    }
+  },
+  "systems": {
+    "items": {
+      "cdn": {
+        "title": "CDN"
+      },
+      "dns": {
+        "title": "DNS"
+      },
+      "site-delivery": {
+        "title": "站点分发"
+      },
+      "api": {
+        "title": "API",
+        "description": "供开发者访问的 API 端点"
+      }
+    }
+  },
+  "notifications": {
+    "title": "订阅更新",
+    "description": "通过以下方式自动接收状态更新。",
+    "buttons": {
+      "subscribe": "订阅",
+      "close": "关闭"
+    },
+    "items": {
+      "icalendar": {
+        "title": "日历",
+        "description": "通过 <a href=\"{url}\" target=\"_blank\" rel=\"noopener\">iCalendar</a> 接收 <strong>维护计划</strong>。"
+      },
+      "feeds": {
+        "title": "Feeds",
+        "description": "获得 <a href=\"{atom_url}\" target=\"_blank\" rel=\"noopener\">Atom Feed</a> 或 <a href=\"{rss_url}\" target=\"_blank\" rel=\"noopener\">RSS Feed</a>。"
+      },
+      "twitter": {
+        "title": "Twitter",
+        "description": "或 <a href=\"https://twitter.com/{username}\" target=\"_blank\" rel=\"noopener\">查看我们的个人资料</a>。"
+      },
+      "support": {
+        "title": "支持",
+        "description": "查看我们的 <a href=\"{url}\" target=\"_blank\" rel=\"noopener\">支持站点</a>。"
+      },
+      "webpush": {
+        "title": "推送",
+        "description": "通过您的浏览器接收通知。",
+        "enable": "启用通知",
+        "enabled": "已为此浏览器启用通知。"
+      }
+    }
+  }
+}
